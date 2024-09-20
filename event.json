@@ -1,0 +1,122 @@
+[
+	{
+		"title": "Tech Conference 2024",
+		"description": "A conference on the latest trends in technology.",
+		"eventDate": "2024-10-01",
+		"organizer": "Tech Corp"
+	},
+	{
+		"title": "Music Festival",
+		"description": "An annual outdoor music festival with top artists.",
+		"eventDate": "2024-09-15",
+		"organizer": "Festival Inc"
+	},
+	{
+		"title": "Startup Meetup",
+		"description": "Networking and learning event for startup enthusiasts.",
+		"eventDate": "2024-11-22",
+		"organizer": "Startup Hub"
+	},
+	{
+		"title": "AI Symposium",
+		"description": "Exploring the advancements in Artificial Intelligence.",
+		"eventDate": "2024-12-05",
+		"organizer": "AI World"
+	},
+	{
+		"title": "Yoga Workshop",
+		"description": "A relaxing and informative yoga session for all levels.",
+		"eventDate": "2024-10-10",
+		"organizer": "Wellness Center"
+	},
+	{
+		"title": "Digital Marketing Seminar",
+		"description": "Learn the latest in digital marketing strategies.",
+		"eventDate": "2024-09-30",
+		"organizer": "Marketing Masters"
+	},
+	{
+		"title": "Art Exhibition",
+		"description": "A showcase of modern art from local artists.",
+		"eventDate": "2024-11-12",
+		"organizer": "City Art Gallery"
+	},
+	{
+		"title": "Coding Bootcamp",
+		"description": "A two-day event focused on hands-on coding sessions.",
+		"eventDate": "2024-10-25",
+		"organizer": "Dev Academy"
+	},
+	{
+		"title": "Food Truck Festival",
+		"description": "Try dishes from the best food trucks in the city.",
+		"eventDate": "2024-09-21",
+		"organizer": "Foodie Events"
+	},
+	{
+		"title": "Book Launch",
+		"description": "Celebrating the release of the latest novel by John Doe.",
+		"eventDate": "2024-11-02",
+		"organizer": "City Bookstore"
+	},
+	{
+		"title": "Photography Workshop",
+		"description": "Improve your photography skills with expert tips.",
+		"eventDate": "2024-10-03",
+		"organizer": "Photo Pros"
+	},
+	{
+		"title": "Fitness Challenge",
+		"description": "A community event focused on physical fitness and wellness.",
+		"eventDate": "2024-09-28",
+		"organizer": "FitLife"
+	},
+	{
+		"title": "E-Sports Championship",
+		"description": "Compete in the biggest e-sports event of the year.",
+		"eventDate": "2024-12-01",
+		"organizer": "Gaming League"
+	},
+	{
+		"title": "Charity Auction",
+		"description": "Bid on exclusive items to support a great cause.",
+		"eventDate": "2024-11-19",
+		"organizer": "Helping Hands"
+	},
+	{
+		"title": "Film Screening",
+		"description": "A special screening of an indie film followed by a Q&A session.",
+		"eventDate": "2024-10-20",
+		"organizer": "Indie Cinema"
+	},
+	{
+		"title": "Entrepreneur Workshop",
+		"description": "Learn how to turn your business ideas into reality.",
+		"eventDate": "2024-11-10",
+		"organizer": "Biz Academy"
+	},
+	{
+		"title": "Gardening Expo",
+		"description": "Explore new trends and techniques in gardening.",
+		"eventDate": "2024-09-22",
+		"organizer": "GreenThumb"
+	},
+	{
+		"title": "Baking Competition",
+		"description": "Show off your baking skills and win prizes.",
+		"eventDate": "2024-10-15",
+		"organizer": "Bakers' Guild"
+	},
+	{
+		"title": "Web Development Seminar",
+		"description": "An in-depth seminar on modern web development.",
+		"eventDate": "2024-12-03",
+		"organizer": "Web Dev Experts"
+	},
+	{
+		"title": "Business Networking Event",
+		"description": "Connect with professionals in your industry.",
+		"eventDate": "2024-11-07",
+		"organizer": "Networking Solutions"
+	}
+]
