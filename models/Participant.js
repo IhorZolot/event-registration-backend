@@ -19,7 +19,6 @@ const participantSchema = new Schema({
   },
   dateOfBirth: {
     type: String,
-    required: true,
   },
   source: {
     type: String,
