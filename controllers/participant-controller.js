@@ -2,6 +2,7 @@ import Participant from '../models/Participant.js';
 import Event from '../models/Event.js';
 import { ctrlWrapper } from '../decorators/index.js';
 import { HttpError } from '../helpers/index.js';
+import { format } from 'date-fns';
 
 const registerForEvent = async (req, res) => {
 	const { fullName, email, dateOfBirth, source } = req.body;
@@ -12,18 +13,24 @@ const registerForEvent = async (req, res) => {
 	}
 	const existingParticipant = await Participant.findOne({ email, eventId });
   if (existingParticipant) {
-    return res.status(400).json({ message: 'Participant with this email is already registered for this event' });
+    throw HttpError(400, 'Participant with this email is already registered for this event');
   }
+	const formattedDateOfBirth = new Date(dateOfBirth); 
+	if (isNaN(formattedDateOfBirth.getTime())) {
+		throw HttpError(400, 'Invalid date of birth format');
+	}
 	const participant = new Participant({
 		fullName,
 		email,
-		dateOfBirth,
+		dateOfBirth: formattedDateOfBirth,
 		source,
 		eventId, 
 });
-	console.log('Saving participant:', participant);
 	await participant.save(); 
-	res.status(201).json({participant, message: 'Participant registered successfully' });
+	res.status(201).json({participant:{
+		...participant.toObject(),
+		dateOfBirth: format(participant.dateOfBirth, 'dd.MM.yyyy')
+	} , message: 'Participant registered successfully' });
 };
 
 const getParticipantsForEvent = async (req, res) => {

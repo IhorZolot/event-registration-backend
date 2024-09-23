@@ -6,18 +6,23 @@ const eventSchema = new Schema(
 		title: {
 			type: String,
 			required: true,
+			minlength: 3, 
+      maxlength: 50,
 		},
 		description: {
 			type: String,
 			required: true,
+			maxlength: 100
 		},
 		eventDate: {
-			type: String,
+			type: Date,
 			required: true,
 		},
 		organizer: {
 			type: String,
 			required: true,
+			minlength: 3, 
+      maxlength: 10 
 		},
 	},
 	{ versionKey: false, timestamps: true }

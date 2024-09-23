@@ -18,7 +18,8 @@ const participantSchema = new Schema({
     trim: true,
   },
   dateOfBirth: {
-    type: String,
+    type: Date,
+    required: true,
   },
   source: {
     type: String,
