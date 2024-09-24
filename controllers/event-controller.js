@@ -3,7 +3,7 @@ import Event from '../models/Event.js'
 import { format } from 'date-fns';
 
 const getAllEvents = async (req, res) => {
-	const {page=1, limit=6, sortBy = 'title', sortOrder = 'asc' } = req.query
+	const {page=1, limit=9, sortBy = 'title', sortOrder = 'asc' } = req.query
 	const skip = (page - 1) * limit
 	const sortOptions = {};
   sortOptions[sortBy] = sortOrder === 'asc' ? 1 : -1; 
